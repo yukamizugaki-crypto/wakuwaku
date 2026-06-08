@@ -548,6 +548,13 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   object-fit: cover;
   display: block;
 }
+.feat-photo-wrap.is-menu {
+  aspect-ratio: 1 / 1;
+}
+.feat-photo-wrap.is-menu .feat-photo {
+  object-fit: contain;
+  background: var(--white);
+}
 .feat-title {
   font-family: var(--font-jp);
   font-weight: 700;
